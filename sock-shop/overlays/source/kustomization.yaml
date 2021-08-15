@@ -5,7 +5,7 @@ kind: Kustomization
 bases:
   - ../../base
 patches:
-  - path: mysql-patch-for-4.7.yaml
+  - path: mysql-image-patch-for-4.7.yaml
     target:
       group: apps.openshift.io
       version: v1
